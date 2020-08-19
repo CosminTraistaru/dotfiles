@@ -53,10 +53,6 @@ Plug 'mikelue/vim-maven-plugin'
 Plug 'janko-m/vim-test'
 " Use release branch
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Or latest tag
-Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
-" Or build from source code by use yarn: https://yarnpkg.com
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 colorscheme zenburn
